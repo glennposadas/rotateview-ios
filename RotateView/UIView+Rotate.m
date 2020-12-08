@@ -20,7 +20,7 @@ CGRect frame;
                         delay: 0.0f
                       options: options
                    animations: ^{
-    self.transform = CGAffineTransformRotate(self.transform, (int)rotateOption * (M_PI * 0.999));
+    self.transform = CGAffineTransformRotate(self.transform, (int)rotateOption * (M_PI / 2));
   }
                    completion: ^(BOOL finished) {
     if (finished) {
